@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   background-image: linear-gradient(rgb(161, 21, 47), rgb(121, 53, 138));
+}
+
+li{
+    list-style-type: none;
+    padding: 5px;
+    text-align: left;
+    margin-left: -20px;
+}
+
+#body-wrapper{
+    margin: .5em;
+    padding: 0;
+    
+    width: 100%;
+    height: 100%;
+}
+#start{
+    background-color: white;
+    margin: 2.5em;
+    
+}
+#header{
+    padding: .2em;
+    margin: -.2em;
+    background-color: rgb(13, 22, 22);
+    text-align: center;
+}
+#name{
+    padding: 1em;
+    border: 2px solid rgb(219, 156, 97);
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: wheat;
+}
+#links{
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    background-color: rgba(197, 174, 112, 0.493);
+    padding: 1em;
+    text-align: justify;
+    font-size: 80%;
+}
+#title{
+    padding: 0.5em;
+    background-color: rgb(121, 4, 76);
+    width: 60%;
+    color: wheat;
+}
+#link2{
+    padding-left: 10px;
+}
+#title > a{
+    text-decoration: none;
+    color: wheat;
+}
+#columns{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+}
+#column1{
+    background-color: darksalmon;
+}
+#column1 > #title{
+    margin: .5em;
+}
+table{
+    border-spacing: .5em;
+}
+#stream{
+    color:rgb(80, 7, 37)
+}
+#column2{
+   margin: .5em;
+}
+#course{
+   
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(241, 157, 182);
+    font-weight: 700;
+}
+#percent{
+    float: right;
+    border-radius: 20%;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: rgb(75, 143, 233);
+}
+#year{
+    float: right;
+    padding: 5px;
+    background-color: rgb(216, 113, 118);
+}
+#sub-title{
+    font-weight: 700;
+    color:rgb(1, 15, 19)
+}
+#button > a{
+    border-radius: 20px 20px;
+    margin: 5px;
+    padding: 5px;;
+    background-color: burlywood;
+    text-decoration: none;
+    color: black;
+}
+
+
